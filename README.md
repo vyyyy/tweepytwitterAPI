@@ -2,9 +2,9 @@
 
 Use the tweepy API to stream tweets for a given filter.   
 
-Run this script in bash via the Terminal app on a Mac.
-For example, $ ./tweepytwitterAPI 'python tutorial'.
-If needed, to setup file permission on OSX/Linux, 
+Run this script in bash via the Terminal app on a Mac.  
+For example, $ ./tweepytwitterAPI 'python tutorial'.  
+If needed, to setup file permission on OSX/Linux,   
 1. $ cd ~
 2. $ chmod -x tweepytwitterAPI.py
   
