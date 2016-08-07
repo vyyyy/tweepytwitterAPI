@@ -5,8 +5,8 @@ Use the tweepy API to stream tweets for a given filter.
 Run this script in bash via the Terminal app on a Mac.  
 For example, $ ./tweepytwitterAPI 'python tutorial'.  
 If needed, to setup file permission on OSX/Linux,   
-1. $ cd ~
-2. $ chmod -x tweepytwitterAPI.py
+  1. $ cd ~  
+  2. $ chmod -x tweepytwitterAPI.py
   
 The expected output should be a stream of incoming live tweets containing 'python tutorial'.   
 
