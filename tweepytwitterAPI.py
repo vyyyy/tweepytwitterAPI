@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-#run script from bash commandline
+#run script from commandline
 #don't forget to setup file permission
 
 #import modules
@@ -22,7 +22,7 @@ api = tweepy.API(auth)
 class Listener(tweepy.StreamListener):
 
     def on_status(self, status):
-        print("New Tweet: ",status.author.screen_name,status.text)
+        print("\033[1;46mNew Tweet:\033[1;m","@"+status.author.screen_name,status.text,"\n")
         return True
 
     def on_error(self, status_code):
@@ -38,3 +38,6 @@ stream = tweepy.Stream(auth, myStreamListener)
 
 #pass commandline argument as a string to filter and track tweets
 stream.filter(track=[sys.argv[1]])
+
+#For example, $ ./tweepytwitterAPI.py 'machine learning'
+#Expected output - New Tweet: @someone this tweet by someone re: machine learning
