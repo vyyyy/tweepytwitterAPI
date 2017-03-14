@@ -13,3 +13,6 @@ Run this script at the commandline via the Terminal app.
 
 If needed, to setup file permission on OSX/Linux:   
   1. $ chmod +x tweepytwitterAPI.py  
+  
+### Preview
+![screen shot 2017-03-14 at 7 42 05 pm](https://cloud.githubusercontent.com/assets/13818877/23892665/a6be40b0-08ef-11e7-8b6a-786008ba14b7.png)
